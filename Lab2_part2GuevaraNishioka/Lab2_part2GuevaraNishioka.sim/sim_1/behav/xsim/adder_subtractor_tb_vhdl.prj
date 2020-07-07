@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Users/Raymond Guevara/Desktop/FinallyThere/FA.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.srcs/sources_1/new/xorGate.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_FA_0_0/sim/adder_subtractor_FA_0_0.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_FA_0_1/sim/adder_subtractor_FA_0_1.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_FA_0_2/sim/adder_subtractor_FA_0_2.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_FA_0_3/sim/adder_subtractor_FA_0_3.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_0/adder_subtractor_util_vector_logic_0_0_sim_netlist.vhdl" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_1/adder_subtractor_util_vector_logic_0_1_sim_netlist.vhdl" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_2/adder_subtractor_util_vector_logic_0_2_sim_netlist.vhdl" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_3/adder_subtractor_util_vector_logic_0_3_sim_netlist.vhdl" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/sim/adder_subtractor.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xorGate_0_0/sim/adder_subtractor_xorGate_0_0.vhd" \
+"../../../../Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hdl/adder_subtractor_wrapper.vhd" \
+"../../../../../../Users/Raymond Guevara/Desktop/FinallyThere/adder_subtractor_tb.vhd" \
+
+# Do not sort compile order
+nosort

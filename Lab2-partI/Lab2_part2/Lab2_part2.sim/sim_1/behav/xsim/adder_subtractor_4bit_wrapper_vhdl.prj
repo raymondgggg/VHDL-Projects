@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../lab1/lab1.srcs/sources_1/new/FA.vhd" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_FA_0_0/sim/adder_subtractor_4bit_FA_0_0.vhd" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_FA_0_1/sim/adder_subtractor_4bit_FA_0_1.vhd" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_FA_0_2/sim/adder_subtractor_4bit_FA_0_2.vhd" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_FA_0_3/sim/adder_subtractor_4bit_FA_0_3.vhd" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/sim/adder_subtractor_4bit.vhd" \
+"../../../../Lab2_part2.srcs/sources_1/bd/adder_subtractor_4bit/hdl/adder_subtractor_4bit_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

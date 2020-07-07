@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Feb 19 00:09:33 2020
+# Process ID: 21680
+# Current directory: C:/Programs/Lab2-partI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8792 C:\Programs\Lab2-partI\Lab2_GuevaraNishioka.xpr
+# Log file: C:/Programs/Lab2-partI/vivado.log
+# Journal file: C:/Programs/Lab2-partI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/Lab2-partI/Lab2_GuevaraNishioka.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Programs/Lab2_GuevaraNishioka' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 752.852 ; gain = 108.754
+update_compile_order -fileset sources_1
+eexit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 19 00:10:33 2020...

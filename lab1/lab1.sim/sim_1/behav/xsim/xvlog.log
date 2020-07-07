@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_0/sim/adder_2bit_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_1/sim/adder_2bit_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_2/sim/adder_2bit_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_2_0/sim/adder_2bit_xlslice_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconstant_0_0/sim/adder_2bit_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconcat_0_0/sim/adder_2bit_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_3_0/sim/adder_2bit_xlslice_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_3_1/sim/adder_2bit_xlslice_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_3_2/sim/adder_2bit_xlslice_3_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_3_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_3_3/sim/adder_2bit_xlslice_3_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit_xlslice_3_3

@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Feb 19 01:13:14 2020
+# Process ID: 12776
+# Current directory: C:/Programs/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11184 C:\Programs\lab1\lab1.xpr
+# Log file: C:/Programs/lab1/vivado.log
+# Journal file: C:/Programs/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/lab1/lab1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd}
+export_ip_user_files -of_objects  [get_files C:/Programs/lab1/lab1.srcs/sources_1/new/adder_tb.vhd] -no_script -reset -force -quiet
+remove_files  C:/Programs/lab1/lab1.srcs/sources_1/new/adder_tb.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/Raymond Guevara/Downloads/adder_tb.vhd}}
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd]
+export_ip_user_files -of_objects [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -directory C:/Programs/lab1/lab1.ip_user_files/sim_scripts -ip_user_files_dir C:/Programs/lab1/lab1.ip_user_files -ipstatic_source_dir C:/Programs/lab1/lab1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Programs/lab1/lab1.cache/compile_simlib/modelsim} {questa=C:/Programs/lab1/lab1.cache/compile_simlib/questa} {riviera=C:/Programs/lab1/lab1.cache/compile_simlib/riviera} {activehdl=C:/Programs/lab1/lab1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source adder_2bit_tb.tcl
+update_compile_order -fileset sim_1
+open_bd_design {C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd}
+close_sim
+launch_simulation
+source adder_2bit_tb.tcl
+open_bd_design {C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd}
+delete_bd_objs [get_bd_nets A_1]
+delete_bd_objs [get_bd_nets B_1]
+delete_bd_objs [get_bd_ports A]
+delete_bd_objs [get_bd_ports B]
+create_bd_port -dir I -from 3 -to 0 -type data A
+create_bd_port -dir I -from 3 -to 0 -type data B
+set_property location {-32 206} [get_bd_ports B]
+delete_bd_objs [get_bd_nets xlslice_2_Dout]
+delete_bd_objs [get_bd_nets xlslice_3_Dout]
+delete_bd_objs [get_bd_nets xlslice_1_Dout]
+delete_bd_objs [get_bd_nets xlslice_0_Dout]
+delete_bd_objs [get_bd_nets FA_0_Cout]
+undo
+startgroup
+set_property -dict [list CONFIG.NUM_PORTS {5}] [get_bd_cells xlconcat_0]
+endgroup
+delete_bd_objs [get_bd_nets FA_1_Cout]
+copy_bd_objs /  [get_bd_cells {FA_1}]
+copy_bd_objs /  [get_bd_cells {FA_1}]
+set_property -dict [list CONFIG.DIN_WIDTH {4}] [get_bd_cells xlslice_0]
+set_property -dict [list CONFIG.DIN_WIDTH {4}] [get_bd_cells xlslice_1]
+set_property -dict [list CONFIG.DIN_WIDTH {4}] [get_bd_cells xlslice_2]
+set_property -dict [list CONFIG.DIN_WIDTH {4}] [get_bd_cells xlslice_3]
+copy_bd_objs /  [get_bd_cells {xlslice_3}]
+copy_bd_objs /  [get_bd_cells {xlslice_3}]
+copy_bd_objs /  [get_bd_cells {xlslice_3}]
+copy_bd_objs /  [get_bd_cells {xlslice_3}]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_0/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_1/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_2/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_3/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_4/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_5/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_6/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_7/Din]
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins FA_0/A]
+connect_bd_net [get_bd_pins xlslice_1/Dout] [get_bd_pins FA_1/A]
+connect_bd_net [get_bd_pins xlslice_2/Dout] [get_bd_pins FA_2/A]
+connect_bd_net [get_bd_pins xlslice_3/Dout] [get_bd_pins FA_3/A]
+connect_bd_net [get_bd_pins xlslice_4/Dout] [get_bd_pins FA_0/B]
+connect_bd_net [get_bd_pins xlslice_5/Dout] [get_bd_pins FA_1/B]
+connect_bd_net [get_bd_pins xlslice_6/Dout] [get_bd_pins FA_2/B]
+connect_bd_net [get_bd_pins xlslice_7/Dout] [get_bd_pins FA_3/B]
+connect_bd_net [get_bd_pins FA_1/Cout] [get_bd_pins FA_2/Cin]
+connect_bd_net [get_bd_pins FA_2/Cout] [get_bd_pins FA_3/Cin]
+connect_bd_net [get_bd_pins FA_2/S] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins FA_3/S] [get_bd_pins xlconcat_0/In3]
+connect_bd_net [get_bd_pins FA_3/Cout] [get_bd_pins xlconcat_0/In4]
+delete_bd_objs [get_bd_nets xlconcat_0_dout] [get_bd_ports Sum]
+create_bd_port -dir O -from 4 -to 0 -type data sum
+startgroup
+connect_bd_net [get_bd_ports sum] [get_bd_pins xlconcat_0/dout]
+endgroup
+delete_bd_objs [get_bd_nets A_1]
+undo
+make_wrapper -files [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -top
+generate_target all [get_files  C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd]
+export_ip_user_files -of_objects [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd]
+launch_runs -jobs 4 {adder_2bit_FA_0_0_synth_1 adder_2bit_FA_0_1_synth_1 adder_2bit_FA_1_0_synth_1 adder_2bit_FA_1_1_synth_1}
+export_simulation -of_objects [get_files C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -directory C:/Programs/lab1/lab1.ip_user_files/sim_scripts -ip_user_files_dir C:/Programs/lab1/lab1.ip_user_files -ipstatic_source_dir C:/Programs/lab1/lab1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Programs/lab1/lab1.cache/compile_simlib/modelsim} {questa=C:/Programs/lab1/lab1.cache/compile_simlib/questa} {riviera=C:/Programs/lab1/lab1.cache/compile_simlib/riviera} {activehdl=C:/Programs/lab1/lab1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim

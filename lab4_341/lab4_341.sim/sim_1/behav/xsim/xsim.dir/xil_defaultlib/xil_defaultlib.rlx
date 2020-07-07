@@ -1,0 +1,24 @@
+0.6
+2019.2
+Dec  5 2019
+05:06:03
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.vhd,1587062378,vhdl,,,,design_1_alu_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_PC_0_0/sim/design_1_PC_0_0.vhd,1587063149,vhdl,,,,design_1_pc_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_alu_control_0_0/sim/design_1_alu_control_0_0.vhd,1587062378,vhdl,,,,design_1_alu_control_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_controlUnit_0_0/sim/design_1_controlUnit_0_0.vhd,1588134822,vhdl,,,,design_1_controlunit_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_instmem_0_0/sim/design_1_instmem_0_0.vhd,1586899357,vhdl,,,,design_1_instmem_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_programCounterADD_0_0/sim/design_1_programCounterADD_0_0.vhd,1586899357,vhdl,,,,design_1_programcounteradd_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_regfile_0_0/sim/design_1_regfile_0_0.vhd,1587027108,vhdl,,,,design_1_regfile_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v,1586899358,verilog,,C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v,,design_1_xlslice_0_0,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v,1586899358,verilog,,C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v,,design_1_xlslice_0_1,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v,1586899358,verilog,,C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v,,design_1_xlslice_0_2,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v,1586899358,verilog,,C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_4/sim/design_1_xlslice_0_4.v,,design_1_xlslice_0_3,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_xlslice_0_4/sim/design_1_xlslice_0_4.v,1586899358,verilog,,,,design_1_xlslice_0_4,,,,,,,,
+C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/sim/design_1.vhd,1588134821,vhdl,,,,design_1,,,,,,,,
+C:/Programs/lab4_341/lab4_341.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sim_1/new/mip_tb.vhd,1587062688,vhdl,,,,cfg_tb_design_1_wrapper;tb_design_1_wrapper,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd,1588134822,vhdl,,,,design_1_wrapper,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sources_1/new/alu_control.vhd,1587062156,vhdl,,,,alu_control,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sources_1/new/controlUnit.vhd,1587867199,vhdl,,,,controlunit,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sources_1/new/programCounter.vhd,1587063035,vhdl,,,,pc,,,,,,,,
+C:/Programs/lab4_341/lab4_341.srcs/sources_1/new/programCounterADD.vhd,1586844596,vhdl,,,,programcounteradd,,,,,,,,

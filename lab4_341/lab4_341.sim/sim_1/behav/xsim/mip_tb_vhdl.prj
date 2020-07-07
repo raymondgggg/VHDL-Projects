@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Users/Raymond Guevara/Desktop/Lab4/alu.vhd" \
+"../../../../lab4_341.srcs/sources_1/new/alu_control.vhd" \
+"../../../../lab4_341.srcs/sources_1/new/controlUnit.vhd" \
+"../../../../../../Users/Raymond Guevara/Desktop/Lab4/instmem.vhd" \
+"../../../../lab4_341.srcs/sources_1/new/programCounter.vhd" \
+"../../../../lab4_341.srcs/sources_1/new/programCounterADD.vhd" \
+"../../../../../../Users/Raymond Guevara/Desktop/Lab4/regfile.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_alu_control_0_0/sim/design_1_alu_control_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_controlUnit_0_0/sim/design_1_controlUnit_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_instmem_0_0/sim/design_1_instmem_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_programCounter_0_0/sim/design_1_programCounter_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_programCounterADD_0_0/sim/design_1_programCounterADD_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/ip/design_1_regfile_0_0/sim/design_1_regfile_0_0.vhd" \
+"../../../../lab4_341.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../lab4_341.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../lab4_341.srcs/sim_1/new/mip_tb.vhd" \
+
+# Do not sort compile order
+nosort

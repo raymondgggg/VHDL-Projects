@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/sim/adder_subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_subtractor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hdl/adder_subtractor_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_subtractor_wrapper'

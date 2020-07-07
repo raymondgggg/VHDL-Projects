@@ -1,0 +1,47 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bfc4ab3f0e5d4e8b96bf06711011f336 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_design_1_wrapper_behav xil_defaultlib.cfg_tb_design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture design_1_alu_0_0_arch of entity xil_defaultlib.design_1_ALU_0_0 [design_1_alu_0_0_default]
+Compiling architecture behavior of entity xil_defaultlib.PC [pc_default]
+Compiling architecture design_1_pc_0_0_arch of entity xil_defaultlib.design_1_PC_0_0 [design_1_pc_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture design_1_alu_control_0_0_arch of entity xil_defaultlib.design_1_alu_control_0_0 [design_1_alu_control_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlUnit [controlunit_default]
+Compiling architecture design_1_controlunit_0_0_arch of entity xil_defaultlib.design_1_controlUnit_0_0 [design_1_controlunit_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.instmem [instmem_default]
+Compiling architecture design_1_instmem_0_0_arch of entity xil_defaultlib.design_1_instmem_0_0 [design_1_instmem_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.programCounterADD [programcounteradd_default]
+Compiling architecture design_1_programcounteradd_0_0_arch of entity xil_defaultlib.design_1_programCounterADD_0_0 [design_1_programcounteradd_0_0_d...]
+Compiling architecture behavioral of entity xil_defaultlib.regfile [regfile_default]
+Compiling architecture design_1_regfile_0_0_arch of entity xil_defaultlib.design_1_regfile_0_0 [design_1_regfile_0_0_default]
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_3
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_4
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_design_1_wrapper [tb_design_1_wrapper]
+Built simulation snapshot cfg_tb_design_1_wrapper_behav

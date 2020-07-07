@@ -1,0 +1,196 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu May  7 15:06:30 2020
+# Process ID: 1488
+# Current directory: C:/Programs/lab5_GuevaraNishioka
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2420 C:\Programs\lab5_GuevaraNishioka\lab5_GuevaraNishioka.xpr
+# Log file: C:/Programs/lab5_GuevaraNishioka/vivado.log
+# Journal file: C:/Programs/lab5_GuevaraNishioka\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 745.637 ; gain = 114.465
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/ALU_0/Carryin
+
+VHDL Output written to : C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block alu_control_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block controlUnit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block datamem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block instmem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mux2x1_32bit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mux2x1_5bit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block programCounterADD_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block regfile_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block shiftleft2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sign_extend_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mux2x1_32bit_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block c_addsub_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mux2x1_32bit_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_3 .
+Exporting to file C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'cfg_tb_design_1_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cfg_tb_design_1_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj cfg_tb_design_1_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim'
+"xelab -wto e8e1a6e10dae465ea7cc7b7331930449 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_design_1_wrapper_behav xil_defaultlib.cfg_tb_design_1_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e8e1a6e10dae465ea7cc7b7331930449 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_design_1_wrapper_behav xil_defaultlib.cfg_tb_design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'design_1_util_vector_logic_0_0' remains a black box since it has no binding entity [C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.ip_user_files/bd/design_1/sim/design_1.vhd:388]
+WARNING: [VRFC 10-4940] 'design_1_util_vector_logic_0_1' remains a black box since it has no binding entity [C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.ip_user_files/bd/design_1/sim/design_1.vhd:394]
+WARNING: [VRFC 10-4940] 'design_1_util_vector_logic_1_0' remains a black box since it has no binding entity [C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.ip_user_files/bd/design_1/sim/design_1.vhd:399]
+WARNING: [VRFC 10-4940] 'design_1_util_vector_logic_1_1' remains a black box since it has no binding entity [C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.ip_user_files/bd/design_1/sim/design_1.vhd:405]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture design_1_alu_0_0_arch of entity xil_defaultlib.design_1_ALU_0_0 [design_1_alu_0_0_default]
+Compiling architecture behavior of entity xil_defaultlib.PC [pc_default]
+Compiling architecture design_1_pc_0_0_arch of entity xil_defaultlib.design_1_PC_0_0 [design_1_pc_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture design_1_alu_control_0_0_arch of entity xil_defaultlib.design_1_alu_control_0_0 [design_1_alu_control_0_0_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=32...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_14.c_addsub_v12_0_14 [\c_addsub_v12_0_14(c_xdevicefami...]
+Compiling architecture design_1_c_addsub_0_2_arch of entity xil_defaultlib.design_1_c_addsub_0_2 [design_1_c_addsub_0_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlUnit [controlunit_default]
+Compiling architecture design_1_controlunit_0_0_arch of entity xil_defaultlib.design_1_controlUnit_0_0 [design_1_controlunit_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.datamem [datamem_default]
+Compiling architecture design_1_datamem_0_0_arch of entity xil_defaultlib.design_1_datamem_0_0 [design_1_datamem_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.instmem [instmem_default]
+Compiling architecture design_1_instmem_0_0_arch of entity xil_defaultlib.design_1_instmem_0_0 [design_1_instmem_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2x1_32bit [mux2x1_32bit_default]
+Compiling architecture design_1_mux2x1_32bit_0_0_arch of entity xil_defaultlib.design_1_mux2x1_32bit_0_0 [design_1_mux2x1_32bit_0_0_defaul...]
+Compiling architecture design_1_mux2x1_32bit_0_1_arch of entity xil_defaultlib.design_1_mux2x1_32bit_0_1 [design_1_mux2x1_32bit_0_1_defaul...]
+Compiling architecture design_1_mux2x1_32bit_1_0_arch of entity xil_defaultlib.design_1_mux2x1_32bit_1_0 [design_1_mux2x1_32bit_1_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.mux2x1_5bit [mux2x1_5bit_default]
+Compiling architecture design_1_mux2x1_5bit_0_0_arch of entity xil_defaultlib.design_1_mux2x1_5bit_0_0 [design_1_mux2x1_5bit_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.programCounterADD [programcounteradd_default]
+Compiling architecture design_1_programcounteradd_0_0_arch of entity xil_defaultlib.design_1_programCounterADD_0_0 [design_1_programcounteradd_0_0_d...]
+Compiling architecture behavioral of entity xil_defaultlib.regfile [regfile_default]
+Compiling architecture design_1_regfile_0_0_arch of entity xil_defaultlib.design_1_regfile_0_0 [design_1_regfile_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.shiftleft2 [shiftleft2_default]
+Compiling architecture design_1_shiftleft2_0_0_arch of entity xil_defaultlib.design_1_shiftleft2_0_0 [design_1_shiftleft2_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_extend [sign_extend_default]
+Compiling architecture design_1_sign_extend_0_0_arch of entity xil_defaultlib.design_1_sign_extend_0_0 [design_1_sign_extend_0_0_default]
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_1_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_1_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_1_2
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_1_3
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_design_1_wrapper [tb_design_1_wrapper]
+Built simulation snapshot cfg_tb_design_1_wrapper_behav
+
+****** Webtalk v2019.2.1 (64-bit)
+  **** SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+  **** IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim/xsim.dir/cfg_tb_design_1_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim/xsim.dir/cfg_tb_design_1_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu May  7 15:08:28 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu May  7 15:08:28 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 963.266 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cfg_tb_design_1_wrapper_behav -key {Behavioral:sim_1:Functional:cfg_tb_design_1_wrapper} -tclbatch {cfg_tb_design_1_wrapper.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source cfg_tb_design_1_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cfg_tb_design_1_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:44 . Memory (MB): peak = 963.266 ; gain = 199.301
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1508.715 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  7 15:12:20 2020...

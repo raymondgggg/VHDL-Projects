@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_0_0/sim/adder_subtractor_xlslice_0_0.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_0_1/sim/adder_subtractor_xlslice_0_1.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_0/sim/adder_subtractor_xlslice_1_0.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_1/sim/adder_subtractor_xlslice_1_1.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_2/sim/adder_subtractor_xlslice_1_2.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_3/sim/adder_subtractor_xlslice_1_3.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_4/sim/adder_subtractor_xlslice_1_4.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_5/sim/adder_subtractor_xlslice_1_5.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlconstant_0_0/sim/adder_subtractor_xlconstant_0_0.v" \
+"../../../../Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlconcat_0_0/sim/adder_subtractor_xlconcat_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

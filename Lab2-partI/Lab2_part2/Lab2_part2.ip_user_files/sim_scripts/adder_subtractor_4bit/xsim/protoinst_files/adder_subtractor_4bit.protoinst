@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"adder_subtractor_4bit": {
+			"proto_instances": {
+			}
+		}
+	}
+}

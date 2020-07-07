@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_0/sim/adder_subtractor_4bit_xlslice_0_0.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_1/sim/adder_subtractor_4bit_xlslice_0_1.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_2/sim/adder_subtractor_4bit_xlslice_0_2.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_3/sim/adder_subtractor_4bit_xlslice_0_3.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_4/sim/adder_subtractor_4bit_xlslice_0_4.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_5/sim/adder_subtractor_4bit_xlslice_0_5.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_6/sim/adder_subtractor_4bit_xlslice_0_6.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_7/sim/adder_subtractor_4bit_xlslice_0_7.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlconstant_0_1/sim/adder_subtractor_4bit_xlconstant_0_1.v" \
+"../../../../Lab2_part2.ip_user_files/bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlconcat_0_0/sim/adder_subtractor_4bit_xlconcat_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

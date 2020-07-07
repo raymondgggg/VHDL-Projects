@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Sun Mar  8 14:59:12 2020
+# Process ID: 11612
+# Current directory: C:/Programs/Lab2_part2GuevaraNishioka
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22244 C:\Programs\Lab2_part2GuevaraNishioka\Lab2_part2GuevaraNishioka.xpr
+# Log file: C:/Programs/Lab2_part2GuevaraNishioka/vivado.log
+# Journal file: C:/Programs/Lab2_part2GuevaraNishioka\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 768.039 ; gain = 128.160
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  8 17:55:36 2020...

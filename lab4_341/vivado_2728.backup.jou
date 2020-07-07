@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Tue Apr 14 14:09:19 2020
+# Process ID: 2728
+# Current directory: C:/Programs/lab4_341
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19232 C:\Programs\lab4_341\lab4_341.xpr
+# Log file: C:/Programs/lab4_341/vivado.log
+# Journal file: C:/Programs/lab4_341\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/lab4_341/lab4_341.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets ALU_0_ALUOut]
+create_bd_port -dir O -type data aluOut
+delete_bd_objs [get_bd_ports aluOut]
+create_bd_port -dir O -from 31 -to 0 -type data alutOut
+set_property location {827 353} [get_bd_ports alutOut]
+startgroup
+connect_bd_net [get_bd_ports alutOut] [get_bd_pins ALU_0/ALUOut]
+endgroup
+connect_bd_net [get_bd_pins regfile_0/write_data] [get_bd_pins ALU_0/ALUOut]
+set_property location {840 356} [get_bd_ports alutOut]
+save_bd_design
+make_wrapper -files [get_files C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/design_1.bd] -top
+file mkdir C:/Programs/lab4_341/lab4_341.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Programs/lab4_341/lab4_341.srcs/sim_1/new/mip_tb.vhd w ]
+add_files -fileset sim_1 C:/Programs/lab4_341/lab4_341.srcs/sim_1/new/mip_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_module_reference design_1_programCounter_0_0
+generate_target Simulation [get_files C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Programs/lab4_341/lab4_341.ip_user_files/sim_scripts -ip_user_files_dir C:/Programs/lab4_341/lab4_341.ip_user_files -ipstatic_source_dir C:/Programs/lab4_341/lab4_341.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Programs/lab4_341/lab4_341.cache/compile_simlib/modelsim} {questa=C:/Programs/lab4_341/lab4_341.cache/compile_simlib/questa} {riviera=C:/Programs/lab4_341/lab4_341.cache/compile_simlib/riviera} {activehdl=C:/Programs/lab4_341/lab4_341.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation

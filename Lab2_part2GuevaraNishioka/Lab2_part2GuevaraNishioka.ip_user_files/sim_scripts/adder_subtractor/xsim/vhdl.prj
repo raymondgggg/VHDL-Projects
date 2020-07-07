@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/adder_subtractor/ip/adder_subtractor_FA_0_0/sim/adder_subtractor_FA_0_0.vhd" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_FA_0_1/sim/adder_subtractor_FA_0_1.vhd" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_FA_0_2/sim/adder_subtractor_FA_0_2.vhd" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_FA_0_3/sim/adder_subtractor_FA_0_3.vhd" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_0/adder_subtractor_util_vector_logic_0_0_sim_netlist.vhdl" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_1/adder_subtractor_util_vector_logic_0_1_sim_netlist.vhdl" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_2/adder_subtractor_util_vector_logic_0_2_sim_netlist.vhdl" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_util_vector_logic_0_3/adder_subtractor_util_vector_logic_0_3_sim_netlist.vhdl" \
+"../../../bd/adder_subtractor/sim/adder_subtractor.vhd" \
+"../../../bd/adder_subtractor/ip/adder_subtractor_xorGate_0_0/sim/adder_subtractor_xorGate_0_0.vhd" \
+
+nosort

@@ -1,0 +1,270 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu Feb 20 10:29:47 2020
+# Process ID: 3084
+# Current directory: C:/Programs/Lab2_part2GuevaraNishioka
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18364 C:\Programs\Lab2_part2GuevaraNishioka\Lab2_part2GuevaraNishioka.xpr
+# Log file: C:/Programs/Lab2_part2GuevaraNishioka/vivado.log
+# Journal file: C:/Programs/Lab2_part2GuevaraNishioka\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:15 . Memory (MB): peak = 760.273 ; gain = 115.840
+eupdaINFO: [Common 17-206] Exiting Vivadoopen_bd_design {C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd}
+Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_0
+Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_1
+Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_2
+Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_7
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:module_ref:xorGate:1.0 - xorGate_0
+Successfully read diagram <adder_subtractor> from BD file <C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 838.461 ; gain = 2.473
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'adder_subtractor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj adder_subtractor_tb_vlog.prj"
+"xvhdl --incr --relax -prj adder_subtractor_tb_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 869.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+"xelab -wto e8ce37ea1b2345de974d2b1944ed8b15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_6 -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot adder_subtractor_tb_behav xil_defaultlib.adder_subtractor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e8ce37ea1b2345de974d2b1944ed8b15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_6 -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot adder_subtractor_tb_behav xil_defaultlib.adder_subtractor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "adder_subtractor_tb_behav -key {Behavioral:sim_1:Functional:adder_subtractor_tb} -tclbatch {adder_subtractor_tb.tcl} -protoinst "protoinst_files/adder_subtractor.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/adder_subtractor.protoinst
+Time resolution is 1 ps
+source adder_subtractor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'adder_subtractor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 898.996 ; gain = 29.426
+open_bd_design {C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd}
+expected number but got ""
+ERROR: [IP_Flow 19-3317] Tcl Error found in 'validate_PARAM_VALUE.CONST_VAL' method. expected number but got ""
+expected number but got ""
+ERROR: [IP_Flow 19-3317] Tcl Error found in 'validate_PARAM_VALUE.CONST_VAL' method. expected number but got ""
+startgroup
+set_property -dict [list CONFIG.CONST_VAL {0}] [get_bd_cells xlconstant_0]
+endgroup
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 899.680 ; gain = 0.000
+save_bd_design
+Wrote  : <C:\Programs\Lab2_part2GuevaraNishioka\Lab2_part2GuevaraNishioka.srcs\sources_1\bd\adder_subtractor\adder_subtractor.bd> 
+Wrote  : <C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/ui/bd_d7673748.ui> 
+generate_target Simulation [get_files C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd]
+Wrote  : <C:\Programs\Lab2_part2GuevaraNishioka\Lab2_part2GuevaraNishioka.srcs\sources_1\bd\adder_subtractor\adder_subtractor.bd> 
+VHDL Output written to : C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/synth/adder_subtractor.vhd
+VHDL Output written to : C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/sim/adder_subtractor.vhd
+VHDL Output written to : C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hdl/adder_subtractor_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FA_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FA_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FA_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FA_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_3 .
+WARNING: [IP_Flow 19-5160] IP 'adder_subtractor_xlconstant_0_0' detected simulation language mismatch. Simulation type 'rtl' does not support 'VHDL' outputs (see project's "simulator_language" property), delivering 'Verilog' outputs instead.
+WARNING: [IP_Flow 19-5160] IP 'adder_subtractor_xlconstant_0_0' detected simulation language mismatch. Simulation type 'tlm' does not support 'VHDL' outputs (see project's "simulator_language" property), delivering 'SystemC' outputs instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xorGate_0 .
+Exporting to file C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hw_handoff/adder_subtractor.hwh
+Generated Block Design Tcl file C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hw_handoff/adder_subtractor_bd.tcl
+Generated Hardware Definition File C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/synth/adder_subtractor.hwdef
+export_ip_user_files -of_objects [get_files C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/adder_subtractor.bd] -directory C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/sim_scripts -ip_user_files_dir C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files -ipstatic_source_dir C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.cache/compile_simlib/modelsim} {questa=C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.cache/compile_simlib/questa} {riviera=C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.cache/compile_simlib/riviera} {activehdl=C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'adder_subtractor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj adder_subtractor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_0_0/sim/adder_subtractor_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_0_1/sim/adder_subtractor_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_0/sim/adder_subtractor_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_1/sim/adder_subtractor_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_2/sim/adder_subtractor_xlslice_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_3/sim/adder_subtractor_xlslice_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_4/sim/adder_subtractor_xlslice_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlslice_1_5/sim/adder_subtractor_xlslice_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlslice_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlconstant_0_0/sim/adder_subtractor_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/ip/adder_subtractor_xlconcat_0_0/sim/adder_subtractor_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_subtractor_xlconcat_0_0
+"xvhdl --incr --relax -prj adder_subtractor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.ip_user_files/bd/adder_subtractor/sim/adder_subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_subtractor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.srcs/sources_1/bd/adder_subtractor/hdl/adder_subtractor_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_subtractor_wrapper'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1007.012 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+"xelab -wto e8ce37ea1b2345de974d2b1944ed8b15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_6 -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot adder_subtractor_tb_behav xil_defaultlib.adder_subtractor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e8ce37ea1b2345de974d2b1944ed8b15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_6 -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot adder_subtractor_tb_behav xil_defaultlib.adder_subtractor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture adder_subtractor_fa_0_0_arch of entity xil_defaultlib.adder_subtractor_FA_0_0 [adder_subtractor_fa_0_0_default]
+Compiling architecture adder_subtractor_fa_0_1_arch of entity xil_defaultlib.adder_subtractor_FA_0_1 [adder_subtractor_fa_0_1_default]
+Compiling architecture adder_subtractor_fa_0_2_arch of entity xil_defaultlib.adder_subtractor_FA_0_2 [adder_subtractor_fa_0_2_default]
+Compiling architecture adder_subtractor_fa_0_3_arch of entity xil_defaultlib.adder_subtractor_FA_0_3 [adder_subtractor_fa_0_3_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor_util_vector_logic_0_0 [adder_subtractor_util_vector_log...]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor_util_vector_logic_0_1 [adder_subtractor_util_vector_log...]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor_util_vector_logic_0_2 [adder_subtractor_util_vector_log...]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor_util_vector_logic_0_3 [adder_subtractor_util_vector_log...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.adder_subtractor_xlconcat_0_0
+Compiling module xlconstant_v1_1_6.xlconstant_v1_1_6_xlconstant(CON...
+Compiling module xil_defaultlib.adder_subtractor_xlconstant_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.adder_subtractor_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.adder_subtractor_xlslice_0_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_1
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_2
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_3
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_4
+Compiling module xil_defaultlib.adder_subtractor_xlslice_1_5
+Compiling architecture behavioral of entity xil_defaultlib.xorGate [xorgate_default]
+Compiling architecture adder_subtractor_xorgate_0_0_arch of entity xil_defaultlib.adder_subtractor_xorGate_0_0 [adder_subtractor_xorgate_0_0_def...]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor [adder_subtractor_default]
+Compiling architecture structure of entity xil_defaultlib.adder_subtractor_wrapper [adder_subtractor_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_subtractor_tb
+Built simulation snapshot adder_subtractor_tb_behav
+
+****** Webtalk v2019.2.1 (64-bit)
+  **** SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+  **** IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim/xsim.dir/adder_subtractor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim/xsim.dir/adder_subtractor_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Feb 20 10:33:59 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 20 10:33:59 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1007.012 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Programs/Lab2_part2GuevaraNishioka/Lab2_part2GuevaraNishioka.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "adder_subtractor_tb_behav -key {Behavioral:sim_1:Functional:adder_subtractor_tb} -tclbatch {adder_subtractor_tb.tcl} -protoinst "protoinst_files/adder_subtractor.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/adder_subtractor.protoinst
+Time resolution is 1 ps
+source adder_subtractor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'adder_subtractor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:29 . Memory (MB): peak = 1022.914 ; gain = 15.902
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 10:39:12 2020...

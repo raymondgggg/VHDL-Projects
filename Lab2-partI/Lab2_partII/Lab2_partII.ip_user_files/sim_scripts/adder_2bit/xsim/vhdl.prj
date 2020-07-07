@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_0_0/sim/adder_2bit_FA_0_0.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_0_1/sim/adder_2bit_FA_0_1.vhd" \
+"../../../bd/adder_2bit/sim/adder_2bit.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_1_0/sim/adder_2bit_FA_1_0.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_2_0/sim/adder_2bit_FA_2_0.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_util_vector_logic_0_0/adder_2bit_util_vector_logic_0_0_sim_netlist.vhdl" \
+"../../../bd/adder_2bit/ip/adder_2bit_util_vector_logic_0_1/adder_2bit_util_vector_logic_0_1_sim_netlist.vhdl" \
+"../../../bd/adder_2bit/ip/adder_2bit_util_vector_logic_0_2/adder_2bit_util_vector_logic_0_2_sim_netlist.vhdl" \
+"../../../bd/adder_2bit/ip/adder_2bit_util_vector_logic_0_3/adder_2bit_util_vector_logic_0_3_sim_netlist.vhdl" \
+
+nosort

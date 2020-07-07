@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Tue Apr 14 10:45:34 2020
+# Process ID: 5372
+# Current directory: C:/Programs/Lab3_ALU_NishiokaGuevara
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17504 C:\Programs\Lab3_ALU_NishiokaGuevara\Lab3_ALU_NishiokaGuevara.xpr
+# Log file: C:/Programs/Lab3_ALU_NishiokaGuevara/vivado.log
+# Journal file: C:/Programs/Lab3_ALU_NishiokaGuevara\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/Lab3_ALU_NishiokaGuevara/Lab3_ALU_NishiokaGuevara.xpr
+update_compile_order -fileset sources_1
+

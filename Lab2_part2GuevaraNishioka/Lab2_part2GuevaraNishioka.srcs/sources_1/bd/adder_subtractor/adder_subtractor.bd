@@ -1,0 +1,568 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF2179ACAE2066E9A",
+      "device": "xc7k70tfbv676-1",
+      "name": "adder_subtractor",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FA_0": "",
+      "FA_1": "",
+      "FA_2": "",
+      "FA_3": "",
+      "xlslice_0": "",
+      "xlslice_1": "",
+      "xlslice_2": "",
+      "xlslice_3": "",
+      "xlslice_4": "",
+      "xlslice_5": "",
+      "xlslice_6": "",
+      "xlslice_7": "",
+      "util_vector_logic_0": "",
+      "util_vector_logic_1": "",
+      "util_vector_logic_2": "",
+      "util_vector_logic_3": "",
+      "xlconstant_0": "",
+      "xlconcat_0": "",
+      "xorGate_0": ""
+    },
+    "ports": {
+      "A": {
+        "type": "data",
+        "direction": "I",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "sumOrSub": {
+        "type": "data",
+        "direction": "O",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          },
+          "PortWidth": {
+            "value": "5",
+            "value_src": "default"
+          }
+        }
+      },
+      "B": {
+        "type": "data",
+        "direction": "I",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "FA_0": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_subtractor_FA_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_1": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_subtractor_FA_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_2": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_subtractor_FA_0_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_3": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_subtractor_FA_0_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_0_0",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_4": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "0"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_5": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_3",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_6": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_4",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_7": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_subtractor_xlslice_1_5",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "adder_subtractor_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "adder_subtractor_util_vector_logic_0_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "adder_subtractor_util_vector_logic_0_2",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_3": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "adder_subtractor_util_vector_logic_0_3",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "adder_subtractor_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "adder_subtractor_xlconcat_0_0",
+        "parameters": {
+          "IN1_WIDTH": {
+            "value": "1"
+          },
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      },
+      "xorGate_0": {
+        "vlnv": "xilinx.com:module_ref:xorGate:1.0",
+        "xci_name": "adder_subtractor_xorGate_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "xorGate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "x": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "I"
+          },
+          "z": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "sumOrSub"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "xlslice_0/Din",
+          "xlslice_1/Din",
+          "xlslice_2/Din",
+          "xlslice_3/Din"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "xlslice_4/Din",
+          "xlslice_5/Din",
+          "xlslice_6/Din",
+          "xlslice_7/Din"
+        ]
+      },
+      "xlslice_4_Dout": {
+        "ports": [
+          "xlslice_4/Dout",
+          "util_vector_logic_0/Op2"
+        ]
+      },
+      "xlslice_5_Dout": {
+        "ports": [
+          "xlslice_5/Dout",
+          "util_vector_logic_1/Op2"
+        ]
+      },
+      "xlslice_6_Dout": {
+        "ports": [
+          "xlslice_6/Dout",
+          "util_vector_logic_2/Op2"
+        ]
+      },
+      "xlslice_7_Dout": {
+        "ports": [
+          "xlslice_7/Dout",
+          "util_vector_logic_3/Op2"
+        ]
+      },
+      "FA_0_Cout": {
+        "ports": [
+          "FA_0/Cout",
+          "FA_1/Cin"
+        ]
+      },
+      "FA_0_S": {
+        "ports": [
+          "FA_0/S",
+          "xlconcat_0/In0"
+        ]
+      },
+      "FA_1_Cout": {
+        "ports": [
+          "FA_1/Cout",
+          "FA_2/Cin"
+        ]
+      },
+      "FA_1_S": {
+        "ports": [
+          "FA_1/S",
+          "xlconcat_0/In1"
+        ]
+      },
+      "FA_2_S": {
+        "ports": [
+          "FA_2/S",
+          "xlconcat_0/In2"
+        ]
+      },
+      "FA_3_S": {
+        "ports": [
+          "FA_3/S",
+          "xlconcat_0/In3"
+        ]
+      },
+      "FA_2_Cout": {
+        "ports": [
+          "FA_2/Cout",
+          "FA_3/Cin"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "util_vector_logic_0/Op1",
+          "util_vector_logic_1/Op1",
+          "util_vector_logic_2/Op1",
+          "util_vector_logic_3/Op1",
+          "FA_0/Cin",
+          "xorGate_0/x"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "FA_0/A"
+        ]
+      },
+      "xlslice_1_Dout": {
+        "ports": [
+          "xlslice_1/Dout",
+          "FA_1/A"
+        ]
+      },
+      "xlslice_2_Dout": {
+        "ports": [
+          "xlslice_2/Dout",
+          "FA_2/A"
+        ]
+      },
+      "xlslice_3_Dout": {
+        "ports": [
+          "xlslice_3/Dout",
+          "FA_3/A"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "FA_0/B"
+        ]
+      },
+      "util_vector_logic_1_Res": {
+        "ports": [
+          "util_vector_logic_1/Res",
+          "FA_1/B"
+        ]
+      },
+      "util_vector_logic_2_Res": {
+        "ports": [
+          "util_vector_logic_2/Res",
+          "FA_2/B"
+        ]
+      },
+      "util_vector_logic_3_Res": {
+        "ports": [
+          "util_vector_logic_3/Res",
+          "FA_3/B"
+        ]
+      },
+      "FA_3_Cout": {
+        "ports": [
+          "FA_3/Cout",
+          "xorGate_0/y"
+        ]
+      },
+      "xorGate_0_z": {
+        "ports": [
+          "xorGate_0/z",
+          "xlconcat_0/In4"
+        ]
+      }
+    }
+  }
+}

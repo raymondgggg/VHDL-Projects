@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_PC_0_0/sim/design_1_PC_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_alu_control_0_0/sim/design_1_alu_control_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_controlUnit_0_0/sim/design_1_controlUnit_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_datamem_0_0/sim/design_1_datamem_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_instmem_0_0/sim/design_1_instmem_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_mux2x1_32bit_0_0/sim/design_1_mux2x1_32bit_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_mux2x1_5bit_0_0/sim/design_1_mux2x1_5bit_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_programCounterADD_0_0/sim/design_1_programCounterADD_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_regfile_0_0/sim/design_1_regfile_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_shiftleft2_0_0/sim/design_1_shiftleft2_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_sign_extend_0_0/sim/design_1_sign_extend_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_mux2x1_32bit_0_1/sim/design_1_mux2x1_32bit_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_c_addsub_0_2/sim/design_1_c_addsub_0_2.vhd" \
+"../../../bd/design_1/ip/design_1_mux2x1_32bit_1_0/sim/design_1_mux2x1_32bit_1_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

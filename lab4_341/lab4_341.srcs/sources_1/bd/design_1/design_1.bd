@@ -1,0 +1,556 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x2C2075973DE19F54",
+      "device": "xc7k70tfbv676-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "instmem_0": "",
+      "programCounterADD_0": "",
+      "xlslice_0": "",
+      "xlslice_1": "",
+      "xlslice_2": "",
+      "xlslice_3": "",
+      "xlslice_4": "",
+      "regfile_0": "",
+      "alu_control_0": "",
+      "ALU_0": "",
+      "PC_0": "",
+      "controlUnit_0": ""
+    },
+    "ports": {
+      "clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_clock",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "cin": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "zero": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "cout": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "overflow": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "alutOut": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "instmem_0": {
+        "vlnv": "xilinx.com:module_ref:instmem:1.0",
+        "xci_name": "design_1_instmem_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "instmem",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "read_inst": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "inst_out": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "programCounterADD_0": {
+        "vlnv": "xilinx.com:module_ref:programCounterADD:1.0",
+        "xci_name": "design_1_programCounterADD_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "programCounterADD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "programCounterIn": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "programCounterOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "31"
+          },
+          "DIN_TO": {
+            "value": "26"
+          },
+          "DOUT_WIDTH": {
+            "value": "6"
+          }
+        }
+      },
+      "xlslice_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "25"
+          },
+          "DIN_TO": {
+            "value": "21"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "xlslice_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "20"
+          },
+          "DIN_TO": {
+            "value": "16"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "xlslice_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_3",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "15"
+          },
+          "DIN_TO": {
+            "value": "11"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "xlslice_4": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_4",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "5"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DOUT_WIDTH": {
+            "value": "6"
+          }
+        }
+      },
+      "regfile_0": {
+        "vlnv": "xilinx.com:module_ref:regfile:1.0",
+        "xci_name": "design_1_regfile_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "regfile",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "design_1_clock",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "RegWrite": {
+            "direction": "I"
+          },
+          "read_reg1": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "read_reg2": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "write_reg": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "write_data": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "read_data1": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "read_data2": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "alu_control_0": {
+        "vlnv": "xilinx.com:module_ref:alu_control:1.0",
+        "xci_name": "design_1_alu_control_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "alu_control",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "funct": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "operation": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "ALU_0": {
+        "vlnv": "xilinx.com:module_ref:ALU:1.0",
+        "xci_name": "design_1_ALU_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ALU",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "B": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ALUCntl": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "Carryin": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "ALUOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "Zero": {
+            "direction": "O"
+          },
+          "Carryout": {
+            "direction": "O"
+          },
+          "Overflow": {
+            "direction": "O"
+          }
+        }
+      },
+      "PC_0": {
+        "vlnv": "xilinx.com:module_ref:PC:1.0",
+        "xci_name": "design_1_PC_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PC",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "PCin": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "clock": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clock",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "PCout": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "controlUnit_0": {
+        "vlnv": "xilinx.com:module_ref:controlUnit:1.0",
+        "xci_name": "design_1_controlUnit_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "controlUnit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "opcode": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "regWrite": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "programCounter_0_Dout": {
+        "ports": [
+          "PC_0/PCout",
+          "instmem_0/read_inst",
+          "programCounterADD_0/programCounterIn"
+        ]
+      },
+      "instmem_0_inst_out": {
+        "ports": [
+          "instmem_0/inst_out",
+          "xlslice_0/Din",
+          "xlslice_1/Din",
+          "xlslice_2/Din",
+          "xlslice_3/Din",
+          "xlslice_4/Din"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "controlUnit_0/opcode"
+        ]
+      },
+      "controlUnit_0_regWrite": {
+        "ports": [
+          "controlUnit_0/regWrite",
+          "regfile_0/RegWrite"
+        ]
+      },
+      "xlslice_1_Dout": {
+        "ports": [
+          "xlslice_1/Dout",
+          "regfile_0/read_reg1"
+        ]
+      },
+      "xlslice_2_Dout": {
+        "ports": [
+          "xlslice_2/Dout",
+          "regfile_0/read_reg2"
+        ]
+      },
+      "xlslice_3_Dout": {
+        "ports": [
+          "xlslice_3/Dout",
+          "regfile_0/write_reg"
+        ]
+      },
+      "xlslice_4_Dout": {
+        "ports": [
+          "xlslice_4/Dout",
+          "alu_control_0/funct"
+        ]
+      },
+      "alu_control_0_operation": {
+        "ports": [
+          "alu_control_0/operation",
+          "ALU_0/ALUCntl"
+        ]
+      },
+      "regfile_0_read_data1": {
+        "ports": [
+          "regfile_0/read_data1",
+          "ALU_0/A"
+        ]
+      },
+      "regfile_0_read_data2": {
+        "ports": [
+          "regfile_0/read_data2",
+          "ALU_0/B"
+        ]
+      },
+      "clock_1": {
+        "ports": [
+          "clock",
+          "regfile_0/clock",
+          "PC_0/clock"
+        ]
+      },
+      "cin_1": {
+        "ports": [
+          "cin",
+          "ALU_0/Carryin"
+        ]
+      },
+      "ALU_0_Zero": {
+        "ports": [
+          "ALU_0/Zero",
+          "zero"
+        ]
+      },
+      "ALU_0_Carryout": {
+        "ports": [
+          "ALU_0/Carryout",
+          "cout"
+        ]
+      },
+      "ALU_0_Overflow": {
+        "ports": [
+          "ALU_0/Overflow",
+          "overflow"
+        ]
+      },
+      "ALU_0_ALUOut": {
+        "ports": [
+          "ALU_0/ALUOut",
+          "alutOut",
+          "regfile_0/write_data"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "PC_0/reset"
+        ]
+      },
+      "programCounterADD_0_programCounterOut": {
+        "ports": [
+          "programCounterADD_0/programCounterOut",
+          "PC_0/PCin"
+        ]
+      }
+    }
+  }
+}

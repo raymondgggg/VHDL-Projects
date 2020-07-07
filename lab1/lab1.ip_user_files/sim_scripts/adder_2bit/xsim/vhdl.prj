@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_0_0/sim/adder_2bit_FA_0_0.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_0_1/sim/adder_2bit_FA_0_1.vhd" \
+"../../../bd/adder_2bit/sim/adder_2bit.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_1_0/sim/adder_2bit_FA_1_0.vhd" \
+"../../../bd/adder_2bit/ip/adder_2bit_FA_1_1/sim/adder_2bit_FA_1_1.vhd" \
+
+nosort

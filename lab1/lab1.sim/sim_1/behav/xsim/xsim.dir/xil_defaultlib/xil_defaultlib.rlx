@@ -1,0 +1,19 @@
+0.6
+2019.2
+Dec  5 2019
+05:06:03
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_0_0/sim/adder_2bit_FA_0_0.vhd,1580331616,vhdl,,,,adder_2bit_fa_0_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_0_1/sim/adder_2bit_FA_0_1.vhd,1580331616,vhdl,,,,adder_2bit_fa_0_1,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_1_0/sim/adder_2bit_FA_1_0.vhd,1582105463,vhdl,,,,adder_2bit_fa_1_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_1_1/sim/adder_2bit_FA_1_1.vhd,1582105463,vhdl,,,,adder_2bit_fa_1_1,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconcat_0_0/sim/adder_2bit_xlconcat_0_0.v,1580331616,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_3_0/sim/adder_2bit_xlslice_3_0.v,,adder_2bit_xlconcat_0_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconstant_0_0/sim/adder_2bit_xlconstant_0_0.v,1580331616,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconcat_0_0/sim/adder_2bit_xlconcat_0_0.v,,adder_2bit_xlconstant_0_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_0/sim/adder_2bit_xlslice_0_0.v,1582105462,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_1/sim/adder_2bit_xlslice_0_1.v,,adder_2bit_xlslice_0_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_1/sim/adder_2bit_xlslice_0_1.v,1580331616,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_2/sim/adder_2bit_xlslice_0_2.v,,adder_2bit_xlslice_0_1,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_0_2/sim/adder_2bit_xlslice_0_2.v,1580331616,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_2_0/sim/adder_2bit_xlslice_2_0.v,,adder_2bit_xlslice_0_2,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlslice_2_0/sim/adder_2bit_xlslice_2_0.v,1580331616,verilog,,C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_xlconstant_0_0/sim/adder_2bit_xlconstant_0_0.v,,adder_2bit_xlslice_2_0,,,,,,,,
+C:/Programs/lab1/lab1.ip_user_files/bd/adder_2bit/sim/adder_2bit.vhd,1582105462,vhdl,,,,adder_2bit,,,,,,,,
+C:/Programs/lab1/lab1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Programs/lab1/lab1.srcs/sources_1/bd/adder_2bit/hdl/adder_2bit_wrapper.vhd,1582105462,vhdl,,,,adder_2bit_wrapper,,,,,,,,
+C:/Programs/lab1/lab1.srcs/sources_1/new/FA.vhd,1580239391,vhdl,,,,fa,,,,,,,,
+C:/Users/Raymond Guevara/Downloads/adder_tb.vhd,1582102790,vhdl,,,,adder_2bit_tb,,,,,,,,

@@ -1,0 +1,64 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_Layers":"/B_1:true|/A_1:true|",
+   "Default View_Layout":"",
+   "Default View_ScaleFactor":"1.22523",
+   "Default View_TopLeft":"119,-111",
+   "Display-PortTypeData":"true",
+   "Display-PortTypeOthers":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/B_1:false|/A_1:false|",
+   "Interfaces View_ScaleFactor":"1.25",
+   "Interfaces View_TopLeft":"-438,-208",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace portBus A -pg 1 -lvl 0 -x -20 -y 50 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 0 -x -20 -y 310 -defaultsOSRD
+preplace portBus sum -pg 1 -lvl 5 -x 1410 -y 190 -defaultsOSRD
+preplace inst FA_0 -pg 1 -lvl 3 -x 970 -y -30 -defaultsOSRD
+preplace inst FA_1 -pg 1 -lvl 3 -x 970 -y 110 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 1 -x 380 -y -190 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 970 -y -200 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 1240 -y 190 -defaultsOSRD
+preplace inst FA_2 -pg 1 -lvl 3 -x 970 -y 280 -defaultsOSRD
+preplace inst FA_3 -pg 1 -lvl 3 -x 970 -y 420 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 1 -x 380 -y -90 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 1 -x 380 -y 10 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 1 -x 380 -y 110 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 1 -x 380 -y 210 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 1 -x 380 -y 310 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 1 -x 380 -y 410 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 1 -x 380 -y 510 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 660 -y 80 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 2 -x 660 -y 200 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 2 -x 660 -y 320 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 2 -x 660 -y 440 -defaultsOSRD
+preplace netloc xlconstant_0_dout 1 1 3 510 -10 810 -130 1060
+preplace netloc FA_0_Cout 1 2 2 850 -120 1070
+preplace netloc A_1 1 0 1 0 -190n
+preplace netloc B_1 1 0 1 0 210n
+preplace netloc FA_1_Cout 1 2 2 860 -110 1060
+preplace netloc FA_0_S 1 3 1 1090 -40n
+preplace netloc FA_1_S 1 3 1 1070 100n
+preplace netloc xlslice_0_Dout 1 1 2 N -190 840
+preplace netloc xlslice_1_Dout 1 1 2 N -90 830
+preplace netloc xlslice_2_Dout 1 1 2 N 10 810
+preplace netloc xlslice_3_Dout 1 1 2 480 0 820
+preplace netloc FA_2_S 1 3 1 1070 190n
+preplace netloc FA_2_Cout 1 2 2 870 200 1060
+preplace netloc FA_3_S 1 3 1 1080 210n
+preplace netloc FA_3_Cout 1 3 1 1090 230n
+preplace netloc xlconcat_0_dout 1 4 1 N 190
+preplace netloc xlslice_4_Dout 1 1 1 490 90n
+preplace netloc xlslice_5_Dout 1 1 1 500 210n
+preplace netloc xlslice_6_Dout 1 1 1 490 330n
+preplace netloc xlslice_7_Dout 1 1 1 500 450n
+preplace netloc util_vector_logic_0_Res 1 2 1 800 -30n
+preplace netloc util_vector_logic_1_Res 1 2 1 840 110n
+preplace netloc util_vector_logic_2_Res 1 2 1 850 280n
+preplace netloc util_vector_logic_3_Res 1 2 1 830 420n
+levelinfo -pg 1 -20 380 660 970 1240 1410
+pagesize -pg 1 -db -bbox -sgen -110 -330 1520 580
+"
+}
+0

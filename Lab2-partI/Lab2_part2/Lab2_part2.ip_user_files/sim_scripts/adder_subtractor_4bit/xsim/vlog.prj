@@ -1,0 +1,15 @@
+verilog xil_defaultlib  \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_0/sim/adder_subtractor_4bit_xlslice_0_0.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_1/sim/adder_subtractor_4bit_xlslice_0_1.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_2/sim/adder_subtractor_4bit_xlslice_0_2.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_3/sim/adder_subtractor_4bit_xlslice_0_3.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_4/sim/adder_subtractor_4bit_xlslice_0_4.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_5/sim/adder_subtractor_4bit_xlslice_0_5.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_6/sim/adder_subtractor_4bit_xlslice_0_6.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlslice_0_7/sim/adder_subtractor_4bit_xlslice_0_7.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlconstant_0_1/sim/adder_subtractor_4bit_xlconstant_0_1.v" \
+"../../../bd/adder_subtractor_4bit/ip/adder_subtractor_4bit_xlconcat_0_0/sim/adder_subtractor_4bit_xlconcat_0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/lab4_341/lab4_341.srcs/sources_1/new/controlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controlUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/ip/design_1_controlUnit_0_0/sim/design_1_controlUnit_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_controlUnit_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/lab4_341/lab4_341.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Programs/lab4_341/lab4_341.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'

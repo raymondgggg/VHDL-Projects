@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu Feb 20 10:01:39 2020
+# Process ID: 7204
+# Current directory: C:/Programs/Lab2-partI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7020 C:\Programs\Lab2-partI\Lab2_GuevaraNishioka.xpr
+# Log file: C:/Programs/Lab2-partI/vivado.log
+# Journal file: C:/Programs/Lab2-partI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/Lab2-partI/Lab2_GuevaraNishioka.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_logic_circuit_F2.tcl
+set_property top tb_logic_circuit_F1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+source tb_logic_circuit_F1.tcl
+close_sim
+set_property top tb_logic_circuit_F2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_logic_circuit_F2.tcl
+set_property top tb_logic_circuit_F1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source tb_logic_circuit_F1.tcl
+close_sim
+set_property top tb_logic_circuit_F2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_logic_circuit_F2.tcl
+close_sim

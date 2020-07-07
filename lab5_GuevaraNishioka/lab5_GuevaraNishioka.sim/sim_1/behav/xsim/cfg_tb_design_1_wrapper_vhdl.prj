@@ -1,0 +1,35 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/alu.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/pc.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/aluControl.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/controlUnit.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/dataMem.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/instmem.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/mux2x1_32bit.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/mux2x1_5bit.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/pcAdd.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/regfile.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/shiftleft2.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/new/sign_extend.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_PC_0_0/sim/design_1_PC_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_alu_control_0_0/sim/design_1_alu_control_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_controlUnit_0_0/sim/design_1_controlUnit_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_datamem_0_0/sim/design_1_datamem_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_instmem_0_0/sim/design_1_instmem_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_mux2x1_32bit_0_0/sim/design_1_mux2x1_32bit_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_mux2x1_5bit_0_0/sim/design_1_mux2x1_5bit_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_programCounterADD_0_0/sim/design_1_programCounterADD_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_regfile_0_0/sim/design_1_regfile_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_shiftleft2_0_0/sim/design_1_shiftleft2_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_sign_extend_0_0/sim/design_1_sign_extend_0_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_mux2x1_32bit_0_1/sim/design_1_mux2x1_32bit_0_1.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_c_addsub_0_2/sim/design_1_c_addsub_0_2.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/ip/design_1_mux2x1_32bit_1_0/sim/design_1_mux2x1_32bit_1_0.vhd" \
+"../../../../lab5_GuevaraNishioka.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../lab5_GuevaraNishioka.srcs/sim_1/new/mipstb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Apr 29 14:36:36 2020
+# Process ID: 12928
+# Current directory: C:/Programs/lab5_GuevaraNishioka
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30128 C:\Programs\lab5_GuevaraNishioka\lab5_GuevaraNishioka.xpr
+# Log file: C:/Programs/lab5_GuevaraNishioka/vivado.log
+# Journal file: C:/Programs/lab5_GuevaraNishioka\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Programs/lab5_GuevaraNishioka/lab5_GuevaraNishioka.srcs/sources_1/bd/design_1/design_1.bd}

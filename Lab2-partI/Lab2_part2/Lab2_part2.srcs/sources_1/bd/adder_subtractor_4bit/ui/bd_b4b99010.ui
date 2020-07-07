@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.04896",
+   "Default View_TopLeft":"-153,-614",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace portBus A -pg 1 -lvl 0 -x 0 -y -390 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace portBus sum -pg 1 -lvl 4 -x 730 -y -240 -defaultsOSRD
+preplace inst FA_0 -pg 1 -lvl 2 -x 370 -y -460 -defaultsOSRD
+preplace inst FA_1 -pg 1 -lvl 2 -x 370 -y -300 -defaultsOSRD
+preplace inst FA_2 -pg 1 -lvl 2 -x 370 -y -120 -defaultsOSRD
+preplace inst FA_3 -pg 1 -lvl 2 -x 370 -y 30 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 1 -x 120 -y -530 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 1 -x 120 -y -430 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 1 -x 120 -y -330 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 1 -x 120 -y -230 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 1 -x 120 -y -130 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 1 -x 120 -y -30 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 1 -x 120 -y 70 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 1 -x 120 -y 170 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 370 -y -670 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 610 -y -240 -defaultsOSRD
+preplace netloc xlconstant_0_dout 1 1 2 240 -550 480
+preplace netloc A_1 1 0 1 20 -530n
+preplace netloc xlslice_0_Dout 1 1 1 230 -530n
+preplace netloc xlslice_1_Dout 1 1 1 250 -430n
+preplace netloc xlslice_2_Dout 1 1 1 240 -330n
+preplace netloc xlslice_3_Dout 1 1 1 220 -230n
+preplace netloc xlslice_4_Dout 1 1 1 230 -460n
+preplace netloc xlslice_5_Dout 1 1 1 250 -300n
+preplace netloc xlslice_6_Dout 1 1 1 260 -120n
+preplace netloc xlslice_7_Dout 1 1 1 270 30n
+preplace netloc FA_0_Cout 1 1 2 280 -540 460
+preplace netloc FA_1_Cout 1 1 2 270 -210 460
+preplace netloc FA_2_Cout 1 1 2 280 -200 460
+preplace netloc xlconcat_0_dout 1 3 1 N -240
+preplace netloc FA_0_S 1 2 1 480 -470n
+preplace netloc FA_1_S 1 2 1 470 -310n
+preplace netloc FA_2_S 1 2 1 470 -240n
+preplace netloc FA_3_S 1 2 1 480 -220n
+preplace netloc FA_3_Cout 1 2 1 490 -200n
+preplace netloc B_1 1 0 1 20 -130n
+levelinfo -pg 1 0 120 370 610 730
+pagesize -pg 1 -db -bbox -sgen -90 -840 840 230
+"
+}
+0

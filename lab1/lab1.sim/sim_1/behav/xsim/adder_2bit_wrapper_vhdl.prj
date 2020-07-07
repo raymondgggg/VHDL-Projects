@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab1.srcs/sources_1/new/FA.vhd" \
+"../../../../lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_0_0/sim/adder_2bit_FA_0_0.vhd" \
+"../../../../lab1.ip_user_files/bd/adder_2bit/ip/adder_2bit_FA_0_1/sim/adder_2bit_FA_0_1.vhd" \
+"../../../../lab1.ip_user_files/bd/adder_2bit/sim/adder_2bit.vhd" \
+"../../../../lab1.srcs/sources_1/bd/adder_2bit/hdl/adder_2bit_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

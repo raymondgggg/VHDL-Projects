@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Feb 19 00:31:21 2020
+# Process ID: 3636
+# Current directory: C:/Programs/Lab2-partI/Lab2_part2/Lab2_part2.runs/adder_subtractor_4bit_FA_0_1_synth_1
+# Command line: vivado.exe -log adder_subtractor_4bit_FA_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder_subtractor_4bit_FA_0_1.tcl
+# Log file: C:/Programs/Lab2-partI/Lab2_part2/Lab2_part2.runs/adder_subtractor_4bit_FA_0_1_synth_1/adder_subtractor_4bit_FA_0_1.vds
+# Journal file: C:/Programs/Lab2-partI/Lab2_part2/Lab2_part2.runs/adder_subtractor_4bit_FA_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source adder_subtractor_4bit_FA_0_1.tcl -notrace
